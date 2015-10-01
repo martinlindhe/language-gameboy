@@ -1,6 +1,6 @@
 {
   "name": "language-gb",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Adds syntax highlighting to Gameboy/Gameboy Color asm files in Atom.",
   "homepage": "https://github.com/martinlindhe/language-gameboy",
   "repository": {
