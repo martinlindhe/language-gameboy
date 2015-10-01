@@ -1,10 +1,10 @@
 'fileTypes': [
-  'z80',
+  'tsm',
   'inc',
   'asm'
 ]
-'name': 'z80 Assembly'
-'scopeName': 'source.z80'
+'name': 'Gameboy Assembly'
+'scopeName': 'source.gb'
 'patterns': [
   {
     'match': '[;#].*$'
@@ -128,11 +128,11 @@
     ]
   }
   {
-    'match': '\\b(?i:ex|exx|ld|ldd|lddr|ldi|ldir|pop|push|adc|add|cpl|cp|cpd|cpdr|cpi|cpir|daa|dec|inc|neg|sbc|sub|and|bit|ccf|or|res|scf|set|xor|rla|rlc|rlca|rld|rl|rra|rrca|rrc|rrd|rr|sla|sra|srl|call|djnz|jp|jr|nop|ret|reti|retn|rst|di|ei|halt|im|in|ind|indr|ini|inir|otdr|otir|out|outd|outi|bcall|b_call|sll|sl1)\\b'
+    'match': '\\b(?i:ld|ldd|lddr|ldi|ldh|swap|pop|push|adc|add|cpl|cp|cpd|cpdr|cpi|cpir|daa|dec|inc|neg|sbc|sub|and|bit|ccf|or|res|scf|set|xor|rla|rlc|rlca|rld|rl|rra|rrca|rrc|rrd|rr|sla|sra|srl|call|djnz|jp|jr|nop|ret|reti|retn|rst|di|ei|halt|im|in|ind|indr|ini|inir|otdr|otir|out|outd|outi|bcall|b_call|sll|sl1)\\b'
     'name': 'keyword.mnemonic'
   }
   {
-    'match': '\\b(?i:a|b|c|d|e|r|i|h|l|ixh|ixl|iyh|iyl|af|bc|de|hl|ix|iy|sp)\\b'
+    'match': '\\b(?i:a|b|c|d|e|h|l|af|bc|de|hl|sp)\\b'
     'name': 'storage.register'
   }
   {
